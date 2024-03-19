@@ -7,10 +7,10 @@ const bot = new Telegraf('7098363355:AAF4_6GJic3JWyy6TSCF8ClSR6MB3J6c34g', { pol
 // Connessione al database MySQL
 var mysql = require('mysql');
 var con = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'prova bot'
+    host: 'ba5dvhncgggt8xpn3bcy-mysql.services.clever-cloud.com',
+    user: 'urvunlrzxxxjsrn1',
+    password: 'tNNwSC3fHPvajIdK49n1',
+    database: 'ba5dvhncgggt8xpn3bcy'
 });
 
 con.connect((err) => {
