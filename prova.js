@@ -10,7 +10,7 @@ var con = mysql.createConnection({
     host: 'ba5dvhncgggt8xpn3bcy-mysql.services.clever-cloud.com',
     user: 'urvunlrzxxxjsrn1',
     password: 'tNNwSC3fHPvajIdK49n1',
-    database: 'ba5dvhncgggt8xpn3bcy'
+    database: 'bjhq7rcdwm85nx7wg1fs'
 });
 
 con.connect((err) => {
